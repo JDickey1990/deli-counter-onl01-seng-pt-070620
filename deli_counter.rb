@@ -3,6 +3,7 @@ def line(name)
     if name.length==0
       puts "The line is currently empty."
     else
+<<<<<<< HEAD
       name.each_with_index do |item, index|
       place_in_line<< "#{index+1}. #{item}"
      end
@@ -24,3 +25,12 @@ def now_serving(katz_deli)
    katz_deli.shift
  end
 end
+=======
+      name.each_with_index do |index, item|
+      place_in_line<< "#{index item}"
+     end
+   puts place_in_line 
+end
+end
+
+>>>>>>> 917b5b79a3b6aa31aaed66f5a4ab7fe91a875bed
